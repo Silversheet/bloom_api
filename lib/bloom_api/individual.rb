@@ -78,5 +78,9 @@ module BloomApi
     def other_name_suffix
       @raw_provider['other_name_suffix']
     end
+
+    def provider_details
+      @raw_provider['provider_details']
+    end
   end
 end
